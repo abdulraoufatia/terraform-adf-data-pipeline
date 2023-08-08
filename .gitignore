@@ -1,0 +1,6 @@
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+test.txt
+txt.json
+.terraform
