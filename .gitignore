@@ -1,6 +1,7 @@
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
-test.txt
-txt.json
 .terraform
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+.terraform.lock.hcl

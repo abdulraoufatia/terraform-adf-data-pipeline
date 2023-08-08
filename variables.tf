@@ -1,29 +1,55 @@
 variable "resource_group_name" {
-  description = "Name of the resource group to create."
+  description = "The name of the Azure Resource Group."
   type        = string
 }
 
 variable "location" {
-  description = "Azure region where resources will be provisioned."
+  description = "The Azure region to deploy resources."
+  type        = string
+  default     = "UK South"
+}
+
+variable "storage_account_name" {
+  description = "The name of the Azure Storage Account."
   type        = string
 }
 
-variable "source_storage_account_name" {
-  description = "Name of the source storage account."
+variable "storage_container_source_name" {
+  description = "The name of the source Azure Storage Container."
+  type        = string
+  default     = "source"
+}
+
+variable "storage_container_destination_name" {
+  description = "The name of the destination Azure Storage Container."
+  type        = string
+  default     = "destination"
+}
+
+variable "data_factory_name" {
+  description = "The name of the Azure Data Factory."
   type        = string
 }
 
-variable "destination_storage_account_name" {
-  description = "Name of the destination storage account."
+variable "linked_service_name" {
+  description = "The name of the Azure Data Factory Linked Service."
   type        = string
 }
 
-variable "source_container_name" {
-  description = "Name of the source container."
+variable "source_dataset_name" {
+  description = "The name of the source custom dataset."
   type        = string
+  default     = "sourcedataset"
 }
 
-variable "destination_container_name" {
-  description = "Name of the destination container."
+variable "destination_dataset_name" {
+  description = "The name of the destination custom dataset."
   type        = string
+  default     = "destinationdataset"
+}
+
+variable "pipeline_name" {
+  description = "The name of the pipeline."
+  type        = string
+  default     = "etlpipeline"
 }
