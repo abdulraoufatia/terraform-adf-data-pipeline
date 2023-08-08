@@ -1,0 +1,25 @@
+# Azure Resource Group
+resource_group_name = "my-terraform-demo"
+location            = "UK South"  # Change this to your preferred Azure region
+
+# Azure Storage Account
+storage_account_name = "mystorageaccount"
+
+# Storage Container Names
+storage_container_source_name      = "source-container"
+storage_container_destination_name = "destination-container"
+
+# Azure Data Factory
+data_factory_name = "my-data-factory"
+
+# Linked Service (Azure Blob Storage)
+linked_service_name          = "my-linked-service"
+
+# Source Custom Dataset
+source_dataset_name = "source-dataset"
+
+# Destination Custom Dataset
+destination_dataset_name = "destination-dataset"
+
+# Data Factory Pipeline
+pipeline_name = "etl-pipeline"
