@@ -48,7 +48,7 @@ destination_dataset_name = "destination-dataset"
 pipeline_name = "etl-pipeline"
 
 ```
-5. Save the terraform.tfvars file.
+5. Save the `terraform.tfvars` file.
 
 # Deployment
 1. Open a command prompt or terminal window and navigate to the root directory of this project.
