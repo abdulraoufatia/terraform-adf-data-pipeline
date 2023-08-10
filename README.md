@@ -17,8 +17,8 @@ Before you begin, ensure you have:
    git clone https://github.com/abdulraoufatia/terraform-adf-data-pipeline.git
    ```
 2. Create a file named `terraform.tfvars` in the root directory of this project.
-3. Copy the content from `terraform.tfvars.template` and paste it into terraform.tfvars.
-3. Modify the values in terraform.tfvars according to your preferences.
+3. Copy the content from `terraform.tfvars.template` and paste it into `terraform.tfvars`.
+3. Modify the values in `terraform.tfvars` according to your preferences.
 
 ```
 # Azure Resource Group
@@ -54,12 +54,13 @@ pipeline_name = "etl-pipeline"
 1. Open a command prompt or terminal window and navigate to the root directory of this project.
 2. Run the following commands:
 
-```
+```sh
 terraform init
 terraform apply -auto-approve
 ```
 
 This will initialise Terraform and apply the configuration using the values from terraform.tfvars.
+
 3. Confirm the deployment by typing `yes` when prompted.
 
 4. Once the deployment is complete, Terraform will display the output values, including the storage account name and primary access key.
