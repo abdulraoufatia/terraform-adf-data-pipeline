@@ -14,11 +14,11 @@ Before you begin, ensure you have:
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/abdulraoufatia/terraform-etl-build/tree/master
+   git clone https://github.com/abdulraoufatia/terraform-adf-data-pipeline.git
    ```
 2. Create a file named `terraform.tfvars` in the root directory of this project.
 3. Copy the content from `terraform.tfvars.template` and paste it into terraform.tfvars.
-2. Modify the values in terraform.tfvars according to your preferences.
+3. Modify the values in terraform.tfvars according to your preferences.
 
 ```
 # Azure Resource Group
@@ -91,6 +91,4 @@ When finished, clean up resources to avoid ongoing charges:
 Contributions are welcome! If you encounter issues or want to enhance the project, submit pull requests.
 
 # License
-This project is open-source and available under the MIT License. 
-
-
+This project is open-source and available under the MIT License.
