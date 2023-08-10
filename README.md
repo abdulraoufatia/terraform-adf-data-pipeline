@@ -59,7 +59,7 @@ terraform init
 terraform apply -auto-approve
 ```
 
-This will initialise Terraform and apply the configuration using the values from terraform.tfvars.
+This will initialise Terraform and apply the configuration using the values from `terraform.tfvars`.
 
 3. Confirm the deployment by typing `yes` when prompted.
 
