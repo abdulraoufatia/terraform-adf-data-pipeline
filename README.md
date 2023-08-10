@@ -59,8 +59,9 @@ terraform init
 terraform apply -auto-approve
 ```
 
-This will initialize Terraform and apply the configuration using the values from terraform.tfvars.
+This will initialise Terraform and apply the configuration using the values from terraform.tfvars.
 3. Confirm the deployment by typing `yes` when prompted.
+
 4. Once the deployment is complete, Terraform will display the output values, including the storage account name and primary access key.
 
 # Usage
