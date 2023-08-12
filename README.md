@@ -8,6 +8,7 @@ Before you begin, ensure you have:
 
 - Azure Subscription: You need an active Azure subscription.
 - Terraform Installed: Make sure you have Terraform installed on your local machine.
+- Azure Command Line interface: Ensure you have the Azure CLI installed. You can find instructions to your OS here https://learn.microsoft.com/en-us/cli/azure/install-azure-cli 
 
 ## Setup
 
@@ -18,7 +19,7 @@ Before you begin, ensure you have:
    ```
 2. Create a file named `terraform.tfvars` in the root directory of this project.
 3. Copy the content from `terraform.tfvars.template` and paste it into `terraform.tfvars`.
-3. Modify the values in `terraform.tfvars` according to your preferences.
+3. Modify the values in `terraform.tfvars` according to your preferences. Ensure your storage account name is globally unique
 
 ```
 # Azure Resource Group
@@ -26,7 +27,7 @@ resource_group_name = "my-terraform-demo"
 location            = "UK South"  # Change this to your preferred Azure region
 
 # Azure Storage Account
-storage_account_name = "mystorageaccount"
+storage_account_name = "mystorageaccount" # must be globaly unique
 
 # Storage Container Names
 storage_container_source_name      = "source-container"
