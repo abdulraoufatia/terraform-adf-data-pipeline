@@ -23,6 +23,8 @@ Before you begin, ensure you have:
       
       Follow instructions on your prefered method of installation.  
 
+   - Ensure you have configured the AZ CLI
+
 ## Setup
 
 1. Clone this repository:
@@ -40,7 +42,7 @@ resource_group_name = "my-terraform-demo"
 location            = "UK South"  # Change this to your preferred Azure region
 
 # Azure Storage Account
-storage_account_name = "mystorageaccount" # must be globaly unique
+storage_account_name = "<your-storageaccount-name>" # must be globaly unique
 
 # Storage Container Names
 storage_container_source_name      = "source-container"
