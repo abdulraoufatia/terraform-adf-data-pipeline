@@ -8,6 +8,7 @@ Before you begin, ensure you have:
 
 - Azure Subscription: You need an active Azure subscription.
 - Terraform Installed: Make sure you have Terraform installed on your local machine.
+   - Windows: You would need to install Chocolatey Package Manager. You can find  intructions to install Chocolatey here https://chocolatey.org/install
 - Azure Command Line interface: Ensure you have the Azure CLI installed. You can find instructions to your OS here https://learn.microsoft.com/en-us/cli/azure/install-azure-cli 
 
 ## Setup
