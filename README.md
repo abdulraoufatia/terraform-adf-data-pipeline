@@ -6,10 +6,22 @@ This project demonstrates how to set up an Azure Data Factory using Terraform. I
 
 Before you begin, ensure you have:
 
-- Azure Subscription: You need an active Azure subscription.
-- Terraform Installed: Make sure you have Terraform installed on your local machine.
-   - Windows: You would need to install Chocolatey Package Manager. You can find  intructions to install Chocolatey here https://chocolatey.org/install
-- Azure Command Line interface: Ensure you have the Azure CLI installed. You can find instructions to your OS here https://learn.microsoft.com/en-us/cli/azure/install-azure-cli 
+- **Azure Subscription**: You need an active Azure subscription. Ensure you have a Microsoft Azure account, this will enable you to create a subscription.
+
+- **Terraform Installed**: Make sure you have Terraform installed on your local machine.
+   - Windows OS: You would need to install Chocolatey Package Manager. You can find  intructions to install Chocolatey here https://chocolatey.org/install
+
+   - MAC OS: You would need to install Homebrew. You can find instructions to install Homebrew here at https://brew.sh
+
+- **Azure Command Line Interface**: Ensure you have the Azure CLI installed. You can find instructions to your OS here https://learn.microsoft.com/en-us/cli/azure/install-azure-cli 
+   - Windows OS: From 12-Aug-23 there three methods to install AZURE CLI
+      - Package Manager
+      - Microsoft Installer (MSI)
+      - Microsoft Installer (MSI) wtih Command 
+
+
+      
+      Follow instructions on your prefered method of installation.  
 
 ## Setup
 
